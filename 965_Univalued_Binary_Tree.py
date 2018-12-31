@@ -14,7 +14,7 @@ class Solution:
         def dfs(node):
             if not node:
                 return True
-            if node.val==root.val and dfs(node.left) and dfs(node.right):
+            if node.val == root.val and dfs(node.left) and dfs(node.right):
                 return True
             else:
                 return False
