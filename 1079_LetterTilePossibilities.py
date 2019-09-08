@@ -37,7 +37,7 @@ class Solution:
 
     # permutation without repeat elements
     def backtrack(self, rlist:List[int], templist:List[int], nums:List[int]):
-        # if len(templist) <= len(nums):
+        # if len(templist) == len(nums):
         rlist.append(templist[:])
         # else:
         for i in nums:
